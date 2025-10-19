@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kushroom</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+        model-viewer {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+
+
+
+</head>
+<body>
+<header class="header">
+    <div class="logo">
+        <img src="img/mush.png" alt="Логотип">
+    </div>
+
+    <nav class="menu" id="menu">
+        <a href="#">КАТАЛОГ</a>
+        <a href="#">ОТЗЫВЫ</a>
+        <a href="#">ИНСТРУКЦИЯ</a>
+    </nav>
+
+<div class="icons">
+    <a href="#"><img src="img/tg.png" alt="Telegram"></a>
+    <a href="#"><img src="img/inst.png" alt="Instagram"></a>
+    <a href="#"><img src="img/koshe.png" alt="Корзина"></a>
+    <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+</header>
+
+
+<section class="hero">
+    <div class="container">
+      <!-- ТЕКСТ -->
+      <div class="hero-text">
+        <h1>
+          <span class="red">МАКСИМУМ</span> <br /><span class="white">ПРОДУКТИВНОСТИ</span><br />
+          <span class="green">МИНИМУМ СТРЕСА</span>
+        </h1>
+        <p>Современные биодобавки для фокуса, памяти, сна и иммунитета.</p>
+        <a href="#catalog" class="btn">ПРОСМОТРЕТЬ КАТАЛОГ</a>
+      </div>
+
+      <!-- ИЗОБРАЖЕНИЕ -->
+      <div class="hero-image">
+        <img src="img/man.png" alt="Мужчина с грибами">
+      </div>
+    </div>
+  </section>
+
+<div class="ticker">
+  <div class="ticker__wrapper">
+    <span>ГРИБЫ ★ КОРЕНИ ★ СУПЕРФУДЫ ★ ГРИБЫ ★ КОРЕНИ ★ СУПЕРФУДЫ ★  ГРИБЫ ★ КОРЕНИ ★ </span>
+     <span>ГРИБЫ ★ КОРЕНИ ★ СУПЕРФУДЫ ★ ГРИБЫ ★ КОРЕНИ ★ СУПЕРФУДЫ ★  ГРИБЫ ★ КОРЕНИ ★</span>
+  </div>
+</div>
+
+
+
+
+<div class="product-list-container">
+  <h2 class="product-list-title">СПИСОК ТОВАРОВ</h2>
+  <div class="product-buttons">
+    <button class="product-btn">ГРИБЫ</button>
+    <button class="product-btn">КОРЕНИ</button>
+    <button class="product-btn">СУПЕРФУДЫ</button>
+    <button class="product-btn">ДРУГОЕ</button>
+  </div>
+</div>
+
+
+
+<section class="reishi-section">
+  <div class="reishi-container">
+    <!-- === ЛЕВАЯ ЧАСТЬ === -->
+    <div class="reishi-info">
+      <h2 class="reishi-title">ШИИТАКЕ</h2>
+      <p class="reishi-text">Естественный источник бета-глюканов для поддержания иммунной системы.</p>
+      <p class="reishi-details">60 растительных капсул по 0,5 г (±5%), содержащих 100% молотые плодовые тела гриба шиитаке.</p>
+      <div class="reishi-actions">
+        <div class="reishi-buttons-row">
+          <button class="reishi-btn">
+            <img src="img/koshe.png" alt="Корзина" class="koshe-icon">
+          </button>
+          <button class="reishi-btn">ИНСТРУКЦИЯ</button>
+          <button class="reishi-btn">КУПИТЬ</button>
+          <div class="reishi-price">500₴</div>
+        </div>
+      </div>
+    </div>
+    <!-- === ПРАВАЯ ЧАСТЬ === -->
+    <div class="reishi-image-block">
+      <button class="scroll-btn left">&lt;</button>
+      <img src="img/group1.png" alt="Рейши упаковка" class="reishi-image" />
+      <button class="scroll-btn right">&gt;</button>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section class="раздел-блога-о-продукции">
+  <h2 class="заголовок-блога">БЛОГ О ПРИМЕНЕНИЕ НАШЕЙ ПРОДУКЦИИ</h2>
+
+  <div class="контейнер-карточек-блога">
+
+    <!-- Первая карточка -->
+    <div class="карточка-блога">
+      <div class="фон-карточки фон1"></div>
+      <div class="метка-категории">МИКРОДОЗИНГ</div>
+      <div class="текст-карточки">
+        <p class="заголовок-карточки">
+          Как начать микродозинг без стресса: советы для начинающих
+        </p>
+        <a href="#" class="кнопка-перехода">→</a>
+      </div>
+    </div>
+
+    <!-- Вторая карточка -->
+    <div class="карточка-блога">
+      <div class="фон-карточки фон2"></div>
+      <div class="метка-категории">ПИТАНИЕ</div>
+      <div class="текст-карточки">
+        <p class="заголовок-карточки">
+          Оптимальное питание во время микродозинга: что есть
+        </p>
+        <a href="#" class="кнопка-перехода">→</a>
+      </div>
+    </div>
+
+    <!-- Третья карточка -->
+    <div class="карточка-блога">
+      <div class="фон-карточки фон3"></div>
+      <div class="метка-категории">ПРОДУКТИВНОСТЬ</div>
+      <div class="текст-карточки">
+        <p class="заголовок-карточки">
+          Как сохранять фокус и продуктивность в быстром мире
+        </p>
+        <a href="#" class="кнопка-перехода">→</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="faq-section">
+  <div class="faq-container">
+    
+    <!-- Правый блок с изображением и кнопкой (теперь слева) -->
+    <div class="faq-right">
+      <img src="img/mushka.jpg" alt="Микродозинг" class="faq-image" />
+      <a href="#" class="faq-link">
+        <img src="img/inst.png" alt="Instagram" class="faq-link-icon" /> Больше информации в нашем блоге →
+      </a>
+    </div>
+
+    <!-- Левый блок - Аккордеон (теперь справа) -->
+    <div class="faq-left">
+      <h2 class="faq-title">ЧАСТЫЕ ВОПРОСЫ</h2>
+
+      <!-- Вопрос 1 -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          <span>О микродозинге</span>
+          <span class="icon">+</span>
+        </button>
+        <div class="accordion-content">
+          <p><strong>Какая рекомендуемая доза?</strong><br>
+            На каждом продукте указана инструкция по применению. Обычно микродозинг принимают по схеме 1 день приёма — 2 дня перерыва, или 4 дня приёма — 3 дня перерыва.
+          </p>
+          <p><strong>Сколько длится курс?</strong><br>
+            Стандартный курс микродозинга длится от 4 до 8 недель. Затем рекомендуется сделать перерыв на 2–4 недели.
+          </p>
+          <p><strong>Когда лучше принимать — утром или вечером?</strong><br>
+            Лучше всего — в первой половине дня. Микродозинг может дать лёгкий прилив энергии или творческой концентрации, поэтому вечерний приём может повлиять на сон.
+          </p>
+        </div>
+      </div>
+
+      <!-- Вопрос 2 -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          <span>Доставка и оплата</span>
+          <span class="icon">+</span>
+        </button>
+        <div class="accordion-content">
+          <p><strong>Как осуществляется доставка?</strong><br>
+            Мы отправляем заказы по всей Украине через Новую Почту. Возможна международная доставка.
+          </p>
+          <p><strong>Какие способы оплаты?</strong><br>
+            Оплата на карту, Apple Pay, Google Pay или наложенным платежом.
+          </p>
+        </div>
+      </div>
+
+      <!-- Вопрос 3 -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          <span>Безопасность и качество</span>
+          <span class="icon">+</span>
+        </button>
+        <div class="accordion-content">
+          <p><strong>Продукция сертифицирована?</strong><br>
+            Да, вся продукция проходит лабораторные исследования и контроль качества.
+          </p>
+          <p><strong>Есть ли побочные эффекты?</strong><br>
+            При правильной дозировке — минимальные. При чувствительности рекомендуется проконсультироваться с врачом.
+          </p>
+        </div>
+      </div>
+
+      <!-- Вопрос 4 -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          <span>Заказ и поддержка</span>
+          <span class="icon">+</span>
+        </button>
+        <div class="accordion-content">
+          <p><strong>Как оформить заказ?</strong><br>
+            Выберите продукт, добавьте в корзину и оформите заказ. Или напишите нам в Telegram / Instagram.
+          </p>
+          <p><strong>Нужна помощь?</strong><br>
+            Наша поддержка всегда на связи и поможет выбрать продукт и курс приёма.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+
+<script> const items = document.querySelectorAll('.accordion-item'); items.forEach(item => { const header = item.querySelector('.accordion-header'); header.addEventListener('click', () => { const openItem = document.querySelector('.accordion-item.active'); if (openItem && openItem !== item) { openItem.classList.remove('active'); } item.classList.toggle('active'); }); }); </script>
+
+
+
+
+<script>
+const burger = document.getElementById('burger');
+const menu = document.getElementById('menu');
+
+burger.addEventListener('click', () => {
+  menu.classList.toggle('show');
+});
+</script>
+
+
+
+
+
+
+<section class="reviews-marquee-section">
+  <h2 class="reviews-marquee-title">ОТЗЫВЫ</h2>
+  <div class="reviews-marquee">
+    <div class="reviews-track">
+      <!-- 10 отзывов -->
+      <div class="review-card">
+        <img src="img/w1.png" alt="Анна К." class="review-photo">
+        <h4 class="review-name">Анна К.</h4>
+        <p>Отличный продукт, рекомендую!</p>
+      </div>
+      <div class="review-card">
+        <img src="img/m1.png" alt="Игорь П." class="review-photo">
+        <h4 class="review-name">Игорь П.</h4>
+        <p>Быстрая доставка и качественное обслуживание.</p>
+      </div>
+      <div class="review-card">
+        <img src="img/w2.png" alt="Мария С." class="review-photo">
+        <h4 class="review-name">Мария С.</h4>
+        <p>Эффект заметен уже через неделю!</p>
+      </div>
+      <div class="review-card">
+        <img src="img/m2.png" alt="Дмитрий Л." class="review-photo">
+        <h4 class="review-name">Дмитрий Л.</h4>
+        <p>Продукт полностью соответствует описанию.</p>
+      </div>
+      <div class="review-card">
+        <img src="img/w3.png" alt="Марина В." class="review-photo">
+        <h4 class="review-name">Марина В.</h4>
+        <p>Удобно принимать и чувствуется эффект.</p>
+      </div>
+      <div class="review-card">
+        <img src="img/m3.png" alt="Алексей К." class="review-photo">
+        <h4 class="review-name">Алексей К.</h4>
+        <p>Очень доволен результатом!</p>
+      </div>
+      <div class="review-card">
+        <img src="img/w4.png" alt="Екатерина М." class="review-photo">
+        <h4 class="review-name">Екатерина М.</h4>
+        <p>Поддержка клиентов всегда на связи.</p>
+      </div>
+      <div class="review-card">
+        <img src="img/m4.png" alt="Сергей П." class="review-photo">
+        <h4 class="review-name">Сергей П.</h4>
+        <p>Качество продукта полностью соответствует описанию.</p>
+      </div>
+      <div class="review-card">
+        <img src="img/m5.png" alt="Николай Н." class="review-photo">
+        <h4 class="review-name">Николай Н.</h4>
+        <p>Буду заказывать ещё, спасибо!</p>
+      </div>
+      <div class="review-card">
+        <img src="img/m6.png" alt="Дмитрий С." class="review-photo">
+        <h4 class="review-name">Дмитрий С.</h4>
+        <p>Удобно принимать и чувствуется эффект.</p>
+      </div>
+      <!-- Копии для бесшовного скролла -->
+      <div class="review-card">
+        <img src="img/w1.png" alt="Анна К." class="review-photo">
+        <h4 class="review-name">Анна К.</h4>
+        <p>Отличный продукт, рекомендую!</p>
+      </div>
+      <div class="review-card">
+        <img src="img/m1.png" alt="Игорь П." class="review-photo">
+        <h4 class="review-name">Игорь П.</h4>
+        <p>Быстрая доставка и качественное обслуживание.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<script>
+const reviews = document.querySelector('.reviews-carousel');
+const reviewItems = document.querySelectorAll('.review-item');
+let index = 0;
+
+function scrollReviews() {
+  index++;
+  if (index >= reviewItems.length) index = 0;
+  const offset = reviewItems[index].offsetTop;
+  reviews.scrollTo({
+    top: offset,
+    behavior: 'smooth'
+  });
+}
+
+// Автоскролл каждые 4 секунды
+setInterval(scrollReviews, 4000);
+</script>
+</body>
+
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Соцсети -->
+    <div class="footer-social">
+      <h3>МЫ В СОЦСЕТЯХ</h3>
+      <div class="social-icons">
+        <a href="#" aria-label="Telegram" class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+            <path d="M9.032 15.627l-.385 5.423c.55 0 .788-.237 1.073-.52l2.58-2.465 5.345 3.914c.98.54 1.677.256 1.93-.905l3.493-16.36h.001c.309-1.44-.52-2.007-1.475-1.657L1.41 9.562c-1.415.552-1.395 1.345-.24 1.705l5.44 1.699 12.64-7.96c.595-.36 1.135-.162.69.198l-10.91 9.423z"/>
+          </svg>
+        </a>
+        <a href="#" aria-label="Instagram" class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+            <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zm4.5 3.5a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2A3 3 0 1 0 12 17a3 3 0 0 0 0-6zm5.25-.75a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- О сайте -->
+    <div class="footer-section">
+      <h3>О САЙТЕ</h3>
+      <ul>
+        <li><a href="#">КАТАЛОГ</a></li>
+        <li><a href="#">ОТЗЫВЫ</a></li>
+        <li><a href="#">ИНСТРУКЦИИ/a></li>
+      </ul>
+    </div>
+
+    <!-- Помощь -->
+    <div class="footer-section">
+      <h3>ПОМОЩЬ</h3>
+      <ul>
+        <li><a href="#">ДОСТАВКА</a></li>
+        <li><a href="#">ОФЕРТА</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Контакты и нижняя часть -->
+  <div class="footer-bottom">
+    <div class="contacts">
+      <p>+38 (097) 456 43 12</p>
+      <p>kushroom@gmail.com</p>
+    </div>
+    <p>2025–2026. Все права защищены · <a href="#">Политика конфиденциальности компании</a></p>
+  </div>
+</footer>
+</html>
